@@ -7,7 +7,7 @@ let About = require('About')
 let Examples = require('Examples')
 
 // load foundation
-require('style!css!foundation-sites/dist/foundation.min.css')
+require('style!css!foundation-sites/dist/css/foundation.min.css')
 $(document).foundation()
 
 // App css
