@@ -42,7 +42,7 @@ let Weather = React.createClass({
       window.location.hash = '#/'
     }
   },
-  componentWillReceiveProps: function(newProps) {
+  componentWillReceiveProps: function (newProps) {
     let location = newProps.location.query.location
     if (location && location.length > 0) {
       this.handleSearch(location)
